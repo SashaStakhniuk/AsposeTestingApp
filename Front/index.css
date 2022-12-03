@@ -1,0 +1,22 @@
+.setting-div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: lightgray;
+    
+}
+.setting-div>div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.setting-div>div>div{
+    margin:0px 5px 0px 5px;
+}
